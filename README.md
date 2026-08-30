@@ -27,6 +27,7 @@ Linux Privilege Escalation Enumerator for NetExec
 git clone https://github.com/tarxtuga/nxc_linux_privesc
 cd nxc_linux_privesc
 cp linux_privesc_enum.py ~/.nxc/modules/
+```
 
 ## Использование
 
@@ -35,4 +36,5 @@ cp linux_privesc_enum.py ~/.nxc/modules/
 nxc ssh <target> -u <user> -p <password> -M linux_privesc_enum
 
 Глубокий скан
-nxc ssh 10.10.10.10 -u user -p pass -M linux_privesc_enum -o DEEP=true VERBOSE=true 
+nxc ssh 10.10.10.10 -u user -p pass -M linux_privesc_enum -o DEEP=true VERBOSE=true
+```
