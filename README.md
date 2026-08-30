@@ -33,7 +33,7 @@ cp linux_privesc_enum.py ~/.nxc/modules/
 
 ```bash
 Классический скан
-nxc ssh 10.10.10.10 -u user -p <password -M linux_privesc_enum
+nxc ssh 10.10.10.10 -u user -p password -M linux_privesc_enum
 
 Глубокий скан
 nxc ssh 10.10.10.10 -u user -p pass -M linux_privesc_enum -o DEEP=true VERBOSE=true
